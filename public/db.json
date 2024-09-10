@@ -1,0 +1,52 @@
+[
+  {
+    "id": "1",
+    "cover_image": "https://th.bing.com/th/id/OIP.XXshlESf7Jt0fGHX3KJNnQHaEc?rs=1&pid=ImgDetMain",
+    "title": "Exploring the Universe",
+    "author": "John Doe",
+    "author_image": "https://th.bing.com/th/id/R.e7e983048934045c740f76fbff8660b4?rik=9zD9iH%2fYoWwNQQ&riu=http%3a%2f%2fimages2.fanpop.com%2fimages%2fphotos%2f7900000%2fJOHN-DOE-john-doe-7969094-2087-2560.jpg&ehk=dKqfE%2bfKIVEQ9raDF%2fINEmNe%2fo7SIK%2fGIajew7crglI%3d&risl=&pid=ImgRaw&r=0",
+    "post_date": "2024-09-10",
+    "read_time": 14,
+    "hash_tags": ["#science", "#space", "#exploration"]
+  },
+  {
+    "id": "2",
+    "cover_image": "https://www.discoverwalks.com/blog/wp-content/uploads/2017/11/crypte-archeologique-610x351.jpg",
+    "title": "A Journey Through History",
+    "author": "Jane Smith",
+    "author_image": "https://images.gr-assets.com/authors/1553237143p8/6088388.jpg",
+    "post_date": "2024-08-22",
+    "read_time": 9,
+    "hash_tags": ["#history", "#culture", "#ancientworld"]
+  },
+  {
+    "id": "3",
+    "cover_image": "https://th.bing.com/th/id/OIP.FDxFpmWHF2-l9xsR7vFPCQAAAA?rs=1&pid=ImgDetMain",
+    "title": "Mastering Web Development",
+    "author": "Alex Johnson",
+    "author_image": "https://th.bing.com/th/id/OIP.78-VpKp6NSNELPT_vtCQHwHaHa?rs=1&pid=ImgDetMain",
+    "post_date": "2024-07-30",
+    "read_time": 16,
+    "hash_tags": ["#webdev", "#javascript", "#frontend"]
+  },
+  {
+    "id": "4",
+    "cover_image": "https://becomeawritertoday.com/wp-content/webp-express/webp-images/uploads/2021/03/creativewritingforbeginners-FB-1024x614.jpg.webp",
+    "title": "Creative Writing for Beginners",
+    "author": "Emily Brown",
+    "author_image": "https://th.bing.com/th/id/OIP.ZtBrZT187VHPpgjev0z_-wHaJP?rs=1&pid=ImgDetMain",
+    "post_date": "2024-06-18",
+    "read_time": 11,
+    "hash_tags": ["#writing", "#creativity", "#storytelling"]
+  },
+  {
+    "id": "5",
+    "cover_image": "https://i.ibb.co/xhm63Fc/Art-Photography-87.jpg",
+    "title": "The Art of Photography",
+    "author": "Michael Lee",
+    "author_image": "https://th.bing.com/th/id/OIP.SI-uZNs16IBOnq1iH5b0ZQHaKX?rs=1&pid=ImgDetMain",
+    "post_date": "2024-05-07",
+    "read_time": 8,
+    "hash_tags": ["#photography", "#art", "#visuals"]
+  }
+]
