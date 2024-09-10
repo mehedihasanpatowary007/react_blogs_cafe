@@ -12,8 +12,8 @@ const Bookmarks = () => {
         </p>
       </div>
       <div className="bg-gray-300 min-h-[480px] my-[20px] rounded p-4 flex flex-col gap-4">
-        {bookmarks.map((bookmark) => {
-          return <Bookmark key={bookmark.id} bookmark={bookmark} />;
+        {bookmarks.map((bookmark, index) => {
+          return <Bookmark key={index} bookmark={bookmark} />;
         })}
       </div>
     </div>

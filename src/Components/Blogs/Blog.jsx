@@ -3,8 +3,8 @@ import { FaRegBookmark } from "react-icons/fa";
 import useBlogsContext from "../../Custom/useBlogsContext";
 
 const Blog = ({ blog }) => {
-  const { bookmarkAdd, totalReadTime, setTotalReadTime} = useBlogsContext();
-  const { cover_image, title, author, author_image, post_date, read_time, hash_tags } = blog;
+  const { bookmarkAdd, handleReadTime } = useBlogsContext();
+  const {id, cover_image, title, author, author_image, post_date, read_time, hash_tags } = blog;
   return (
     <div className="flex flex-col gap-6 my-10 p-4 custom-shadow rounded">
       <div>
@@ -53,7 +53,7 @@ const Blog = ({ blog }) => {
       <div>
         <p
           className="text-blue-400 underline cursor-pointer font-semibold active:text-black duration-100"
-          onClick={()=> setTotalReadTime(totalReadTime + read_time)}
+          onClick={() => handleReadTime(id, read_time)}
         >
           Mark as a read
         </p>
